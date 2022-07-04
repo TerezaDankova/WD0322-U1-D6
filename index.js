@@ -11,5 +11,5 @@ let currentYear = 2022
 
 let myBirthYear = 2022 - 26
 
-console.log("And I was born in this year:", myBirthYear)
+console.log("And I was born in:", myBirthYear)
 console.log("\n");
