@@ -9,7 +9,7 @@ console.log("\n");
 let myAge = 26
 let currentYear = 2022
 
-let myBirthYear = 2022 - 26
+let myBirthYear = currentYear - myAge
 
 console.log("And I was born in:", myBirthYear)
 console.log("\n");
