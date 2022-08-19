@@ -1,32 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script>
-let myName = "Tereza";
-let surname = "Dankova";
-let myFullName = myName +" "+ surname;
-
-console.log("\n");
-console.log("Hello, my name is", myFullName);
-console.log("\n");
-
-let myAge = 26
-let currentYear = 2022
-
-let myBirthYear = 2022 - 26
-
-console.log("And I was born in:", myBirthYear)
-console.log("\n");
-
 
 /*
-EXTRA HW
 
 Spaghetti alla Carbonara Recipe:
 
@@ -55,8 +28,7 @@ To make classic carbonara:
 
 */
 
-let recipeName = "SPAGHETTI ALLA CARBONARE RECIPE";
-console.log(recipeName);
+let recepiName = "Spaghetti alla Carbonara"
 
 let spaghetti = 400;
 let guanciale = 250;
@@ -66,13 +38,11 @@ let blackPepper = 4;
 let water = 4000;
 let salt = 15;
 
-console.log("Spaghetti: " + spaghetti + "g");
-console.log("Guanciale: " + guanciale + "g");
-console.log("Egg Yolks: " + eggYolks + "g");
-console.log("Pecorino Romano:" + pecorinoRomano + "g");
-console.log("Black Pepper: " + blackPepper + "g");
-console.log("Water:" + water + "g");
-console.log("Salt: " + salt + "g");
+console.log("Spaghetti: " + spaghetti);
+console.log("Guanciale: " + guanciale);
+console.log("Egg Yolks: " + eggYolks);
+console.log("Pecorino Romano" + pecorinoRomano);
+console.log("Black Pepper: " + blackPepper);
 
 
 // taking a pinch (1g) from whatever amount blackPepper is at the time
@@ -115,7 +85,3 @@ console.log(blackPepper);
 
 let carbonara = cookedSpaghetti + fryPan + rawEggSauce + blackPepper; // rawEggs will cook with the remaining heat of the pasta and the pan
 console.log("\nSERVING CARBONARA: ", carbonara);
-  
-  </script>
-</body>
-</html>

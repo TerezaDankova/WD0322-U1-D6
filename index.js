@@ -1,3 +1,6 @@
+
+
+
 let myName = "Tereza";
 let surname = "Dankova";
 let myFullName = myName +" "+ surname;
